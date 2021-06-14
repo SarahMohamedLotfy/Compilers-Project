@@ -1,0 +1,3 @@
+PROC m
+Semantic Error : x cannot assign to this variable type because x of type int  and a of type string
+m ENDP

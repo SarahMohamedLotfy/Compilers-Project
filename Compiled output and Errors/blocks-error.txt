@@ -1,0 +1,11 @@
+PROC m
+
+MOV R1, 10
+MOV x,R1
+
+MOV R1, 20
+MOV y,R1
+
+Semantic error: y is not declared
+
+m ENDP

@@ -1,0 +1,24 @@
+PROC s
+
+POP_INT x
+POP_INT y
+MOV R1, y
+MOV R2, x
+ADD R0,R1,R2
+MOV z,R0
+
+RET
+
+s ENDP
+
+PROC m
+
+CALL s
+PUSH_INT 10
+PUSH_INT 20
+
+CALL s
+PUSH_INT a
+PUSH_INT a
+
+m ENDP
