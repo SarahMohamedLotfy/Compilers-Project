@@ -9,19 +9,17 @@ The Project comprises the following
 1. Design a suitable programming language; you may use an existing
 one. The important constructs to be considered are:
 
-• Variables and Constants declaration.
+   • Variables and Constants declaration.
 
-• Mathematical and logical expressions.
+   • Mathematical and logical expressions.
 
-• Assignment statement.
+   • Assignment statement.
 
-• If-then-else statement, while loops, repeat-until loops, for loops,
-switch statement.
+   • If-then-else statement, while loops, repeat-until loops, for loops, switch statement.
 
-• Block structure (nested scopes where variables may bedeclared
-at the beginning of blocks).
+    • Block structure (nested scopes where variables may bedeclared at the beginning of blocks).
 
-• Functions
+    • Functions
 
 2. Design a suitable and extensible format for the symbol table.
 3. Implement the lexical analyzer using Lex.
@@ -30,15 +28,12 @@ implement your parser using YACC.
 5. Implement a proper syntax error handler.
 6. Build a simple semantic analyzer to check for the following:
 
-• Variable declaration conflicts. i.e. multiple declaration of the same
-variable.
+   • Variable declaration conflicts. i.e. multiple declaration of the same variable.
 
-• Improper usage of variables regarding their type.
+   • Improper usage of variables regarding their type.
 
-• Variables used before being initialized and unused variables.
+   • Variables used before being initialized and unused variables.
 
-• The addition of type conversion quadruples to coupe with
-operators’ semantic requirements, i.e. converting integer toreal,
-etc.
+   • The addition of type conversion quadruples to coupe withoperators’ semantic requirements, i.e. converting integer toreal,etc.
 
 7. Implement a simple GUI.
